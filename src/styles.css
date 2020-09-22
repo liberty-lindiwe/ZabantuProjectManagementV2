@@ -1,0 +1,24 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~font-awesome/css/font-awesome.min.css";
+@import "~font-awesome/css/font-awesome.css";
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+
+div.card-header {
+ font-size: large;
+}
+
+div.card {
+  margin-top: 10px
+}
+
+.table {
+  margin-top: 10px
+}
+
+body{
+  background-image: url("./assets/images/bgimage.jpg");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}

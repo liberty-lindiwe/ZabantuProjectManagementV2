@@ -1,0 +1,24 @@
+<br>
+<br>
+<ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0"  *ngFor="let product of product">
+
+    <ngb-panel >
+      <ng-template ngbPanelTitle>
+        <span class="pieo">&#9733; <b>{{product.productName}}</b> &#9733;</span>
+      </ng-template>
+      <ng-template ngbPanelContent >
+          <div  class="pie" >
+            <img src = {{product.imageUrl}} alt="Makeup item" width='200' height='200' />
+            <span style="font-family: 'Biryani', sans-serif;
+            font-family: 'Bowlby One SC', cursive;margin-left:40px">Price : R{{product.price}}</span>
+         
+          </div>
+
+          <div>
+            <br>
+            <button class="btn btn-primary" >Add to cart</button>
+        </div>
+       
+      </ng-template>
+    </ngb-panel>
+  </ngb-accordion>
